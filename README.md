@@ -53,3 +53,17 @@ version 2
 no auto-summary
 network 192.168.X.0
 network 10.0.X.0
+
+```
+
+## Verification Commands Used
+```bash
+show ip route
+show ip protocols
+show ip interface brief
+ping <destination>
+tracert <destination>
+```
+### Expected routing table entries:
+- C = Connected routes
+- R = RIP-learned routes
